@@ -50,7 +50,11 @@ const RecipeDetails = () => {
                             </div>
                         )}
                         <h3>Source</h3>
-                        <p>{fullDetails.sourceUrl}</p>
+                        <p>
+                            <a href={fullDetails.sourceUrl} target="_blank" rel="noopener noreferrer">
+                            Link
+                            </a>
+                        </p>
                     </div>
                 ) : (
                     <div>Loading...</div>

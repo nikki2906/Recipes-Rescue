@@ -5,7 +5,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./routes/NavBar";
 import DetailView from "./routes/DetailView";
-
+import NotFound from "./components/NotFound";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -20,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             element={<DetailView />}
           />
         </Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

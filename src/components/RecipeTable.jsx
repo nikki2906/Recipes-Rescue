@@ -77,6 +77,7 @@ const RecipeTable = ({ recipeList }) => {
                 <th>Cuisine Type</th>
                 <th>Image</th>
                 <th>Recipe Details</th>
+                
               </tr>
             </thead>
             <tbody>
@@ -85,7 +86,9 @@ const RecipeTable = ({ recipeList }) => {
                   <td className="cell">{recipe.title}</td>
                   <td className="cell">{recipe.readyInMinutes} minutes</td>
                   <td className="cell">{recipe.healthScore}</td>
+
                   <td className="cell">{recipe.cuisines}</td>
+                  
                   <td className="cell">
                     <img
                       src={recipe.image}

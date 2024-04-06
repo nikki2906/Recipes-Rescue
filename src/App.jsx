@@ -4,7 +4,9 @@ import RecipeTable from "./components/RecipeTable";
 import Cards from "./components/Cards";
 import RecipeLineGraph from "./components/RecipeLineGraph";
 import RecipeBarGraph from "./components/RecipeBarGraph";
-const API_KEY = import.meta.env.VITE_API_KEY;
+
+
+const apiKey = '';
 
 function App() {
   const [recipesCount, setRecipesCount] = useState(0);
