@@ -4,7 +4,6 @@ Submitted by: **Nhi Huynh**
 
 This web app: **Data can tell interesting stories. In this project, I will create a data dashboard that provides an at-a-glance summary of information gathered from a public API. I choose the Spooncular API and construct the dashboard view displaying the data for cooking recipes fetched from the Spooncular API. The dashboard view contains summary statistics and a list view of the data that can be searched and filtered.**
 
-Time spent: **12** hours spent in total
 
 ## Required Features
 
